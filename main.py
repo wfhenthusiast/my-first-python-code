@@ -10,3 +10,4 @@ shortcut menggeser kursor secara cepat ctrl+panah
 print('Mom said, "Pergi sana"')
 print('Anak menjawab, "Apaan"')
 print('Ibu menyuruh, "Belikan susu 1, kalau ada telur, belikan 5"')
+print("Si Anak pergi kewarung")
