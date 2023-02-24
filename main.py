@@ -20,3 +20,11 @@ x=10
 y=5
 hasil = x+y
 print(hasil)
+
+#Subtraction
+hasil = x-y
+print(hasil)
+
+#Multiplication
+hasil = x*y
+print(hasil)
