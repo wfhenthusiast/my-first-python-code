@@ -13,3 +13,10 @@ print('Ibu menyuruh, "Belikan susu 1, kalau ada telur, belikan 5"')
 print("Si Anak membawakan 5 susu")
 print('Ibu berkata, "Kenapa kamu membawa 5 susu?"')
 print('Si Anak menjawab, "Karena mereka mempunyai telur"')
+
+#Python Arithmetic Operators
+#Additon
+x=10
+y=5
+hasil = x+y
+print(hasil)
