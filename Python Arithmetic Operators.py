@@ -39,3 +39,7 @@ daftar_siswa = [
     "siapa"
 ]
 print(daftar_siswa)
+
+#slicing index
+#tanda koma dalam list menandakan index atau nomor urut yang dimulai dari 0
+print(daftar_siswa[:3])
