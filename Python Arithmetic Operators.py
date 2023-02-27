@@ -1,5 +1,5 @@
 #Python Arithmetic Operators
-#Additon
+#Additon (penjumlahan)
 x=10
 y=3
 hasil = x+y
@@ -29,3 +29,13 @@ print(hasil)
 #Floor Division
 hasil = x // y
 print(hasil)
+
+#Tipe Data
+#list
+daftar_siswa = [
+    "tono",
+    "supri",
+    "susana",
+    "siapa"
+]
+print(daftar_siswa)
