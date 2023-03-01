@@ -4,4 +4,7 @@ print("apa")
 
 print("oke")
 
-#ini adalah comment
+#ini adalah comment sebaris
+"""
+ini adalah comment multiline
+"""
