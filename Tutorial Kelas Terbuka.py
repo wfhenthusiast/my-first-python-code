@@ -3,3 +3,5 @@ print("Tes")
 print("apa")
 
 print("oke")
+
+#ini adalah comment
