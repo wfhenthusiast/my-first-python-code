@@ -8,3 +8,5 @@ print("oke")
 """
 ini adalah comment multiline
 """
+a=11
+print(a)
