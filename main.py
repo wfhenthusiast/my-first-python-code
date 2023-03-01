@@ -5,6 +5,7 @@ Semua sintaksis dasar bahasa pemrograman terdiri dari:
 3. Perulangan   : mengulang langkah yang sama berkali kali selama/sampai kondisi terpenuhi
 shortcut menyeleksi ctrl+shift+panah
 shortcut menggeser kursor secara cepat ctrl+panah
+shortcut memindahkan baris shift+alt+panah
 """
 #sekuensial
 print('Mom said, "Pergi sana"')
