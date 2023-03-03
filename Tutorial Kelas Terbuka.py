@@ -34,3 +34,5 @@ nilai_y = 20
 #pemanggilan kedua
 print("Nilai a adalah", a)
 print("lebarnya adalah", lebar)
+a=20
+print("Nilai a adalah", a)
