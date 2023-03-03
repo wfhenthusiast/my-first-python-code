@@ -48,5 +48,13 @@ print("Nilai b adalah", b)
 data_integer = 1
 print(type(data_integer))
 print("data : ", data_integer, ", bertipe : ", type(data_integer))
+
+data_integer = 100
+print(type(data_integer))
+print("data : ", data_integer, ", bertipe : ", type(data_integer))
+
 print("data : ", data_integer)
 print("- bertipe : ", type(data_integer))
+
+#2. tipe data: angka dengan koma (float)
+
