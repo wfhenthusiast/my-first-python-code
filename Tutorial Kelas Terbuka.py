@@ -62,3 +62,7 @@ data_float = 10.3
 print("data : ", data_float)
 print("- bertipe :", type(data_float))
 
+#3. tipe data: kumpulan karakter (string)
+data_string = "ini siapa"
+print("data : ", data_string)
+print("- bertipe ", type(data_string) )
