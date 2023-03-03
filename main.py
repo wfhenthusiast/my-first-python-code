@@ -6,6 +6,7 @@ Semua sintaksis dasar bahasa pemrograman terdiri dari:
 shortcut menyeleksi ctrl+shift+panah
 shortcut menggeser kursor secara cepat ctrl+panah
 shortcut memindahkan baris shift+alt+panah
+shortcut duplikat baris ctrl + D
 """
 #sekuensial
 print('Mom said, "Pergi sana"')

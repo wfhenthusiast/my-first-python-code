@@ -23,10 +23,14 @@ a=10
 x=20
 lebar=30
 #pemanggilan pertama
-print("Nilai a adalah", a)
 print("lebarnya adalah", lebar)
+print("Nilai a adalah", a)
 
 #penamaan
 nilai_y = 20
 #penamaan dua variabel tidak boleh menggunakan spasi tapi boleh menggunakan _
 #variabel tidak boleh diawali dengan angka
+
+#pemanggilan kedua
+print("Nilai a adalah", a)
+print("lebarnya adalah", lebar)
