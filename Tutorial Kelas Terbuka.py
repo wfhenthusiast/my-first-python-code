@@ -22,6 +22,8 @@ tuliskan python -m py_compile Main.py (nama file)
 a=10
 x=20
 lebar=30
+#pemanggilan pertama
+print("Nilai a adalah", a)
 print("lebarnya adalah", lebar)
 
 #penamaan
