@@ -38,5 +38,6 @@ a=20
 print("Nilai a adalah", a)
 
 #assignment indirect
+#assignment secara tidak langsung, mengambil nilai dari variabel yang ada sebelumnya
 b=a
 print("Nilai b adalah", b)
