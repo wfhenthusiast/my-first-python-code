@@ -36,3 +36,7 @@ print("Nilai a adalah", a)
 print("lebarnya adalah", lebar)
 a=20
 print("Nilai a adalah", a)
+
+#assignment indirect
+b=a
+print("Nilai b adalah", b)
