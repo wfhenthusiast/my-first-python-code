@@ -44,7 +44,7 @@ b=a
 print("Nilai b adalah", b)
 
 #Tipe data
-#1. tipe data: angka satuan (integer)
+#1. tipe data: angka satuan yang tidak ada koma(integer)
 data_integer = 1
 print(type(data_integer))
 print("data : ", data_integer, ", bertipe : ", type(data_integer))
@@ -53,8 +53,12 @@ data_integer = 100
 print(type(data_integer))
 print("data : ", data_integer, ", bertipe : ", type(data_integer))
 
+
 print("data : ", data_integer)
 print("- bertipe : ", type(data_integer))
 
 #2. tipe data: angka dengan koma (float)
+data_float = 10.3
+print("data : ", data_float)
+print("- bertipe :", type(data_float))
 
