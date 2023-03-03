@@ -16,6 +16,7 @@ tuliskan python -m py_compile Main.py (nama file)
 """
 
 #variabel, adalah tempat menyimpan data
+#a=10, a adalah variabel dengan nilai 10
 
 #assignment nilai
 #di python tidak perlu deklarasi variabel
@@ -41,3 +42,9 @@ print("Nilai a adalah", a)
 #assignment secara tidak langsung, mengambil nilai dari variabel yang ada sebelumnya
 b=a
 print("Nilai b adalah", b)
+
+#Tipe data
+#1. tipe data: angka satuan (integer)
+data_integer = 1
+print(type(data_integer))
+print("data : ", data_integer, ", bertipe : ", type(data_integer))
