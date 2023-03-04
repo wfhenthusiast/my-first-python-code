@@ -66,3 +66,4 @@ print("- bertipe :", type(data_float))
 data_string = "ini siapa"
 print("data : ", data_string)
 print("- bertipe ", type(data_string))
+print()
