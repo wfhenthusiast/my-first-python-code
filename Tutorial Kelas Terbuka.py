@@ -78,3 +78,11 @@ print("- bertipe ", type(data_bool))
 data_complex = complex(5,6)
 print("data : ", data_complex)
 print("- bertipe ", type(data_complex))
+
+# tipe data dari bahasa C
+
+from ctypes import c_double, c_char
+
+data_c_double = c_double(10.5)
+print("data : ", data_c_double)
+print("- bertipe ", type(data_c_double))
