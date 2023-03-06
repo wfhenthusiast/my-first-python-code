@@ -71,3 +71,10 @@ print("- bertipe ", type(data_string))
 data_bool = False
 print("data : ", data_bool)
 print("- bertipe ", type(data_bool))
+
+## tipe data khusus
+
+#bilangan kompleks
+data_complex = complex(5,6)
+print("data : ", data_complex)
+print("- bertipe ", type(data_complex))
