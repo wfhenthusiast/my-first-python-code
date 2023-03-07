@@ -88,5 +88,11 @@ print("data : ", data_c_double)
 print("- bertipe ", type(data_c_double))
 
 #casting tipe data = merubah dari satu tipe data ke tipe lain
+#tipe data: int, float, str, bool
 
-data
+data_int = 3
+print("data : ", data_int, ", type =", type(data_int))
+
+data_float = float(data_int)
+data_str = str(data_int)
+data_bool = bool(data_int)
