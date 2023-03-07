@@ -145,3 +145,8 @@ data_str = str(data_int)
 print("Tanggal = ", data_str, "materi 06 done : ", type(data_str))
 
 #Mengambil input data dari user
+data = input("Masukkan data: ")
+print("data: ", data, "type = ", type(data))
+
+data_int = int(input("Masukkan angka = "))
+print("data = ",data_int,"type =",type(data_int))
