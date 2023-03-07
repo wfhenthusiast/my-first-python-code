@@ -163,8 +163,8 @@ print("data = ", biner, "type =", type(biner))
 
 #operasi aritmatika
 #operasi penjumlahan
-a = 3
-b = 9
+a = 10
+b = 3
 hasilnya_adalah = a + b
 print(a,"+",b,"=",hasilnya_adalah)
 
@@ -183,3 +183,7 @@ print(a,"/",b,"=",hasilnya_adalah)
 #operasi eksponen/pangkat (**)
 hasilnya_adalah = a ** b
 print(a,"**",b,"=",hasilnya_adalah)
+
+#operasi modulus (%)
+hasilnya_adalah = a % b
+print(a,"%",b,"=",hasilnya_adalah)
