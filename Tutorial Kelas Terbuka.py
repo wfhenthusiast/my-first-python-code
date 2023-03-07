@@ -121,8 +121,25 @@ print("data : ", data_bool, ", type =", type(data_bool))
 
 data_int = int(data_bool) #akan dibulatkan ke bawah
 data_str = str(data_bool)
-data_float = float(data_bool) #akan false jika nilai float = 0, akan true kalau nilai float > 0
+data_float = float(data_bool) #akan false jika nilai bool = 0, akan true kalau nilai bool > 0
 print("data = ", data_int, ", type=", type(data_int))
 print("data = ", data_str, ", type=", type(data_str))
 print("data = ", data_float, ", type=", type(data_float))
 
+#mengubah dari data string
+print("---STRING---")
+data_str = "14"
+print("data : ", data_str, ", type =", type(data_str))
+
+#jika string kosong (" "), maka tidak bisa diubah ke int dan float alias akan error
+data_int = int(data_str) #string harus angka
+data_float = float(data_str) #string harus angka
+data_bool = bool(data_str) #akan false jika jika string kosong
+print("data = ", data_int, ", type=", type(data_int))
+print("data = ", data_float, ", type=", type(data_float))
+print("data = ", data_bool, ", type=", type(data_bool))
+
+print("Contoh Integer ke String")
+data_int = "5/10/2021"
+data_str = str(data_int)
+print("Tanggal = ", data_str, "materi 06 done : ", type(data_str))
