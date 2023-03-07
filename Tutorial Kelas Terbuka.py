@@ -92,7 +92,7 @@ print("- bertipe ", type(data_c_double))
 
 #mengubah dari data integer
 print("---INTEGER---")
-data_int = 2;
+data_int = 2
 print("data : ", data_int, ", type =", type(data_int))
 
 data_float = float(data_int)
@@ -104,7 +104,7 @@ print("data = ", data_bool, ", type=", type(data_bool))
 
 #mengubah dari data float
 print("---FLOAT---")
-data_float = 2.2;
+data_float = 2.2
 print("data : ", data_float, ", type =", type(data_float))
 
 data_int = int(data_float) #akan dibulatkan ke bawah
@@ -116,7 +116,7 @@ print("data = ", data_bool, ", type=", type(data_bool))
 
 #mengubah dari data boolean
 print("---BOOLEAN---")
-data_bool = True;
+data_bool = True
 print("data : ", data_bool, ", type =", type(data_bool))
 
 data_int = int(data_bool) #akan dibulatkan ke bawah
@@ -160,3 +160,26 @@ print("data = ", angka, "type = ",type(angka))
 #jika ingin mengubah menjadi boolean, maka diubah terlebih dahulu menjadi integer baru ke boolean
 biner = bool(int(input("Masukkan data = ")))
 print("data = ", biner, "type =", type(biner))
+
+#operasi aritmatika
+#operasi penjumlahan
+a = 3
+b = 9
+hasilnya_adalah = a + b
+print(a,"+",b,"=",hasilnya_adalah)
+
+#operasi pengurangan
+hasilnya_adalah = a - b
+print(a,"-",b,"=",hasilnya_adalah)
+
+#operasi perkalian
+hasilnya_adalah = a * b
+print(a,"*",b,"=",hasilnya_adalah)
+
+#operasi pembagian
+hasilnya_adalah = a / b
+print(a,"/",b,"=",hasilnya_adalah)
+
+#operasi eksponen/pangkat (**)
+hasilnya_adalah = a ** b
+print(a,"**",b,"=",hasilnya_adalah)
