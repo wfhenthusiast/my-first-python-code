@@ -125,3 +125,5 @@ data_float = float(data_bool) #akan false jika nilai float = 0, akan true kalau 
 print("data = ", data_int, ", type=", type(data_int))
 print("data = ", data_str, ", type=", type(data_str))
 print("data = ", data_float, ", type=", type(data_float))
+
+#string
