@@ -145,8 +145,14 @@ data_str = str(data_int)
 print("Tanggal = ", data_str, "materi 06 done : ", type(data_str))
 
 #Mengambil input data dari user
+#data yang diinput akan menjadi string
 data = input("Masukkan data: ")
 print("data: ", data, "type = ", type(data))
 
+#jika kita ingin mengubah input string menjadi integer, maka
 data_int = int(input("Masukkan angka = "))
 print("data = ",data_int,"type =",type(data_int))
+
+#jika ingin mengubah menjadi float, maka
+angka = float(input("Masukkan angka = "))
+print("data = ", angka, "type = ",type(angka))
