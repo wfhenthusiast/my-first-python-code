@@ -156,3 +156,7 @@ print("data = ",data_int,"type =",type(data_int))
 #jika ingin mengubah menjadi float, maka
 angka = float(input("Masukkan angka = "))
 print("data = ", angka, "type = ",type(angka))
+
+#jika ingin mengubah menjadi boolean, maka diubah terlebih dahulu menjadi integer baru ke boolean
+biner = bool(int(input("Masukkan data = ")))
+print("data = ", biner, "type =", type(biner))
