@@ -107,9 +107,21 @@ print("---FLOAT---")
 data_float = 2.2;
 print("data : ", data_float, ", type =", type(data_float))
 
-data_int = int(data_float)
+data_int = int(data_float) #akan dibulatkan ke bawah
 data_str = str(data_float)
-data_bool = bool(data_float) #akan false jika nilai int = 0, akan true kalau nilai int > 0
+data_bool = bool(data_float) #akan false jika nilai float = 0, akan true kalau nilai float > 0
 print("data = ", data_int, ", type=", type(data_int))
 print("data = ", data_str, ", type=", type(data_str))
 print("data = ", data_bool, ", type=", type(data_bool))
+
+#mengubah dari data boolean
+print("---BOOLEAN---")
+data_bool = True;
+print("data : ", data_bool, ", type =", type(data_bool))
+
+data_int = int(data_bool) #akan dibulatkan ke bawah
+data_str = str(data_bool)
+data_float = float(data_bool) #akan false jika nilai float = 0, akan true kalau nilai float > 0
+print("data = ", data_int, ", type=", type(data_int))
+print("data = ", data_str, ", type=", type(data_str))
+print("data = ", data_float, ", type=", type(data_float))
