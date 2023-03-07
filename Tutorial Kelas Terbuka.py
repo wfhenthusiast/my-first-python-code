@@ -187,3 +187,14 @@ print(a,"**",b,"=",hasilnya_adalah)
 #operasi modulus (%)
 hasilnya_adalah = a % b
 print(a,"%",b,"=",hasilnya_adalah)
+
+#operasi floor division (//)
+hasilnya_adalah = a // b
+print(a,"//",b,"=",hasilnya_adalah)
+
+#proritas operasi/ operational precedence
+x = 2
+y = 3
+z = 4
+hasil = x * z / y - z + x // y % x
+print(x,"*",z,"/",y,"-",z,'+',x,'//',y,"%",x,"hasilnya adalah = ",hasil)
