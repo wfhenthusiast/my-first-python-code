@@ -143,3 +143,5 @@ print("Contoh Integer ke String")
 data_int = "5/10/2021"
 data_str = str(data_int)
 print("Tanggal = ", data_str, "materi 06 done : ", type(data_str))
+
+#Mengambil input data dari user
