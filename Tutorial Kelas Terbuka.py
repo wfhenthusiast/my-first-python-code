@@ -196,5 +196,12 @@ print(a,"//",b,"=",hasilnya_adalah)
 x = 2
 y = 3
 z = 4
-hasil = x * z / y - z + x // y % x
+hasil = x * z / y - (z + x) // y % x
 print(x,"*",z,"/",y,"-",z,'+',x,'//',y,"%",x,"hasilnya adalah = ",hasil)
+"""dalam prioritas operasi, operasi yang terkuat akan dikerjakan terlebih dahulu,
+ dari yang terkuat ke yang terkecil dengan urutan dari yang terkuat yaitu
+ - ()
+ - eksponen
+ - perkalian, pembagian, modulus, floor division
+ - penjumlahan, pengurangan
+ catatan: tanda kurung akan diproses paling pertama"""
